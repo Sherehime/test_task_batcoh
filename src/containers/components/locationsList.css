@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  min-width: 923px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.list__button {
+  align-self: flex-end;
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+  width: 100vh;
+  background-color: white;
+  border-color: #06bbf4;
+  color: #06bbf4;
+  border-radius: 5px;
+}
+
+.list__button i {
+  margin-right: 10px;
+  font-size: x-large;
+  color: #06bbf4;
+}
